@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 232, 233);
+    background-image: url(../images/bg.jpg);
+    background-position: cover;
+}
+h1 {
+    font-family: 'Style Script', cursive;
+}
+.icon {
+    color: #a28a78;
+}
+.btn {
+    font-size: larger;
+    color: #a28a78;
+    padding: 10px;
+}
+.converter-section {
+    text-align: center;
+    width: 40%;
+    background-color: rgba(243, 245, 245, 0.767);
+    border-radius: 20px;
+}
